@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  flex: 30%;
+  max-width: 25rem;
+  box-shadow: 0 0 0 1px black;
+  margin-bottom: 10px;
+}
+
+.wholebox {
+  margin-left: 1rem;
+  margin-right: 4rem;
+  border-radius: 1rem;
+  border-style: solid;
+  border-color: blue;
+  border-width: 0.1rem;
+  height: 9rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.reload {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 3rem;
+  border-width: 0.1rem;
+  float: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.reload:hover {
+  background-color: lightgray;
+}
+
+p {
+  margin: 0.1rem;
+}
+
+.picture {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgb(17, 0, 255) 1.95px 1.95px 2.6px;
+}
+
+.textbox {
+  margin-top: 1rem;
+}
+
+.DOB {
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.DOB_show {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.button {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.button_hide {
+  margin-top: 0.5rem;
+  display: none;
+}
+
+.hideloading {
+  display: none;
+}
+
+.loading {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
